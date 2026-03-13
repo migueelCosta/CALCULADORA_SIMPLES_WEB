@@ -13,22 +13,13 @@ JavaScript (Vanilla): Lógica das operações e controle de estado.
 🧮 Funcionalidades
 A calculadora permite realizar as quatro operações fundamentais da aritmética:
 
-Soma: Adição de dois ou mais valores.
+Somar valores.
 
-Subtração: Diferença entre números.
+Subtrair valores.
 
-Multiplicação: Produto dos fatores.
+Multiplicar valores.
 
-Divisão: Quociente (com tratamento para divisão por zero).
-
-🧠 O que eu aprendi
-Neste projeto, apliquei conceitos essenciais para qualquer desenvolvedor:
-
-Tratamento de Eventos: Como capturar o clique do usuário e processar a informação.
-
-Lógica de Condicionais: Verificação de tipos de dados e fluxos de decisão.
-
-Escopo de Variáveis: Gerenciamento de valores temporários durante o cálculo.
+Dividir valores.
 
 👤 Autor
 Miguel Silva da Costa Estudante de Análise e Desenvolvimento de Sistemas
