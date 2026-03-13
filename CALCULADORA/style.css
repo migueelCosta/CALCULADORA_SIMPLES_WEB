@@ -1,0 +1,199 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.main-header {
+    padding: 40px;
+    text-align: left;
+}
+
+.main-header h1 {
+    color: #0033cc;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.about-section {
+    background-color: #440000;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Faz a imagem subir no mobile */
+}
+
+.about-img {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    font-size: 1.5rem;
+}
+
+.about-text h2 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.about-text p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+
+.calc-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.calc-section h2 {
+    color: #0033cc;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputs-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.calc-input {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    color: #800;
+    font-weight: bold;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.buttons-group button {
+    background-color: #3333ff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.result-container h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.result-display {
+    background-color: #000000;
+    color: #800;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    font-weight: bold;
+}
+
+
+.contact-section {
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.contact-section p{
+    color: #0033cc;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    font-size: 1.1rem;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links-list a {
+    color: #0033cc;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    font-size: 1.1rem;
+}
+
+.links-list i {
+    font-size: 1.3rem; /* Tamanho do ícone um pouco maior que o texto */
+}
+
+/* --- RESPONSIVIDADE (MEDIA QUERIES) --- */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .about-content {
+        justify-content: center;
+        text-align: center;
+    }
+    .main-header {
+        text-align: center;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    .inputs-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calc-input {
+        width: 100%;
+    }
+    .buttons-group button {
+        width: 45%; /* Fica em grade 2x2 no celular */
+    }
+}
