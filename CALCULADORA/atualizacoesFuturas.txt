@@ -1,0 +1,5 @@
+1 - Arrumar formatação do resultado caso seja escrito um numero muito alto
+2 - Acrescentar funções que resolvam porcentagem
+3 - Acrescentar funções que resolvam potenciação
+4 - Acrescentar funções que resolvam potenciação
+5 - Acrescentar funções com API's que façãm cambio, dolar, euro etc...
